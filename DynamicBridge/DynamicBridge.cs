@@ -22,6 +22,7 @@ using FFXIVClientStructs.FFXIV.Client.UI.Misc;
 using System.IO;
 using System.IO.Compression;
 using System.Linq;
+using ECommons.Automation.LegacyTaskManager;
 
 namespace DynamicBridge;
 
