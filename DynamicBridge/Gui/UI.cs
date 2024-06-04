@@ -40,21 +40,21 @@ public unsafe static class UI
             foreach (var x in Svc.Data.GetExcelSheet<Weather>()) ThreadLoadImageHandler.TryGetIconTextureWrap((uint)x.Icon, false, out _);
             foreach (var x in Svc.Data.GetExcelSheet<Emote>()) ThreadLoadImageHandler.TryGetIconTextureWrap(x.Icon, false, out _);
         }
-        PatreonBanner.DrawRight();
-        ImGuiEx.EzTabBar("TabsNR2", PatreonBanner.Text, RequestTab, ImGuiTabBarFlags.Reorderable, [
-            //("Settings", Settings, null, true),
-            (C.ShowTutorial?"Tutorial":null, GuiTutorial.Draw, null, true),
-            ("Dynamic Rules", GuiRules.Draw, Colors.TabGreen, true),
-            ("Presets", GuiPresets.DrawUser, Colors.TabGreen, true),
-            ("Global Presets", GuiPresets.DrawGlobal, Colors.TabYellow, true),
-            ("Layered Designs", ComplexGlamourer.Draw, Colors.TabPurple, true),
-            ("House Registration", HouseReg.Draw, Colors.TabPurple, true),
-            ("Profiles", GuiProfiles.Draw, Colors.TabBlue, true),
-            ("Characters", GuiCharacters.Draw, Colors.TabBlue, true),
-            ("Settings", GuiSettings.Draw, null, true),
-            InternalLog.ImGuiTab(),
-            (C.Debug?"Debug":null, Debug.Draw, ImGuiColors.DalamudGrey3, true),
-            ]);
+        //PatreonBanner.DrawRight();
+        //ImGuiEx.EzTabBar("TabsNR2", PatreonBanner.Text, RequestTab, ImGuiTabBarFlags.Reorderable, [
+        //    //("Settings", Settings, null, true),
+        //    (C.ShowTutorial?"Tutorial":null, GuiTutorial.Draw, null, true),
+        //    ("Dynamic Rules", GuiRules.Draw, Colors.TabGreen, true),
+        //    ("Presets", GuiPresets.DrawUser, Colors.TabGreen, true),
+        //    ("Global Presets", GuiPresets.DrawGlobal, Colors.TabYellow, true),
+        //    ("Layered Designs", ComplexGlamourer.Draw, Colors.TabPurple, true),
+        //    ("House Registration", HouseReg.Draw, Colors.TabPurple, true),
+        //    ("Profiles", GuiProfiles.Draw, Colors.TabBlue, true),
+        //    ("Characters", GuiCharacters.Draw, Colors.TabBlue, true),
+        //    ("Settings", GuiSettings.Draw, null, true),
+        //    InternalLog.ImGuiTab(),
+        //    (C.Debug?"Debug":null, Debug.Draw, ImGuiColors.DalamudGrey3, true),
+        //    ]);
         RequestTab = null;
     }
 
