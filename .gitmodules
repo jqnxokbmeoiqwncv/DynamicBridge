@@ -1,12 +1,16 @@
 [submodule "ECommons"]
 	path = ECommons
-	url = https://github.com/NightmareXIV/ECommons
+	url = https://github.com/jqnxokbmeoiqwncv/ECommons
+	branch = DynamicBridge
 [submodule "OtterGui"]
 	path = OtterGui
-	url = https://github.com/Limiana/OtterGui
+	url = https://github.com/jqnxokbmeoiqwncv/OtterGui
+	branch = DynamicBridge
 [submodule "Glamourer.Api"]
 	path = Glamourer.Api
-	url = https://github.com/Limiana/Glamourer.Api
+	url = https://github.com/jqnxokbmeoiqwncv/Glamourer.Api
+	branch = DynamicBridge
 [submodule "Penumbra.Api"]
 	path = Penumbra.Api
-	url = https://github.com/Limiana/Penumbra.Api
+	url = https://github.com/jqnxokbmeoiqwncv/Penumbra.Api
+	branch = DynamicBridge
