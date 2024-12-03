@@ -12,7 +12,7 @@
     "IsTestingExclusive": false,
     "RepoUrl": "https://github.com/Limiana/DynamicBridgeStandalone",
     "ApplicableVersion": "any",
-    "DalamudApiLevel": 9,
+    "DalamudApiLevel": 10,
     "DownloadCount": 17761,
     "LastUpdate": 1712535229,
     "DownloadLinkInstall": "https://github.com/jqnxokbmeoiqwncv/DynamicBridge/releases/download/1.0.6.7/DynamicBridge.zip",
